@@ -14,6 +14,14 @@ export default class Login extends Component {
                     />
                 </div>
                 <div className="mb-3">
+                    <label>username</label>
+                    <input
+                        type="text"
+                        className="form-control"
+                        placeholder="enter your username"
+                    />
+                </div>
+                <div className="mb-3">
                     <label>Password</label>
                     <input
                         type="password"
